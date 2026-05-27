@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Environments
+.venv/
+venv/
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Benchmark outputs (the data, not the code)
+benchmarks/results/*.csv
+benchmarks/data/*.csv
+!benchmarks/data/.gitkeep
+
+# Local development
+*.log
+.coverage
+htmlcov/

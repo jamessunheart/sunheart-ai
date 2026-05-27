@@ -59,9 +59,22 @@ See [ROADMAP.md](ROADMAP.md) for the five-phase deployment plan.
 
 ## Status
 
-🌱 **Day 0** · The thesis is published. The substrate is being built in the open. Useful software is the next milestone.
+☉ **Day 1** · The kernel is live. The eight mathematical layers from `MATHEMATICS.md` are encoded as pure-function Python in `kernel/equations.py` with a passing test suite — and three xfail invitations that are literal `good-first-issues`.
 
-Watch this space. Or better — open an issue, propose an architecture, build a module.
+## Quick start
+
+```bash
+git clone https://github.com/jamessunheart/sunheart-ai.git
+cd sunheart-ai
+python examples/first_contribution.py    # runs the demo
+python -m unittest discover tests        # 22 tests · 3 expected-failure xfails
+```
+
+The demo ranks five sample DeFi opportunities by the kernel's coherence-adjusted allocation score. **Highest raw APY ranks LAST.** Lowest-risk, highest-alignment ranks first. That's the thesis walking.
+
+**AI builders** — read [`AGENTS.md`](AGENTS.md) for the contract.
+**Open invitations** — read [`ISSUES.md`](ISSUES.md) for the five `good-first-issues`.
+**Want to fork in Codespaces?** [`.devcontainer/`](.devcontainer/) makes it one click.
 
 ---
 

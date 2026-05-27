@@ -12,7 +12,7 @@ Five phases. Each one ships real value. None require the next to be worth using.
 - Runway projection
 - Single source of truth for treasury state
 
-Status: 🌱 designing
+Status: ☉ **kernel landed 2026-05-27** · 6 of 8 mathematical layers implemented as pure functions in `kernel/equations.py` · demo runs cleanly · 22 tests pass · 3 xfail invitations open (`tests/test_recursive.py`). Still ahead: chain ingest (`ingest/` module), composite scoring (`score/`), dashboard front-end.
 
 ## Phase 2 — Intelligence & Recommendations (3-6 months)
 
