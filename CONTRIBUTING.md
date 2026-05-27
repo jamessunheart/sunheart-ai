@@ -27,6 +27,6 @@ See [issue #1](../../issues/1) when it lands.
 
 ## Get in touch
 
-- 💬 Conversation: [t.me/sunheartbrain_bot](https://t.me/sunheartbrain_bot)
-- ✉ Direct: [james.rick.stinson@gmail.com](mailto:james.rick.stinson@gmail.com)
+- 💬 Conversation: [t.me/Sunheartai_bot](https://t.me/Sunheartai_bot)
+- ✉ Direct: [james@fullpotential.com](mailto:james@fullpotential.com)
 - ⚡ Code: open an issue or PR in this repo

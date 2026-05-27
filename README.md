@@ -67,9 +67,9 @@ Watch this space. Or better — open an issue, propose an architecture, build a 
 
 ## Three doors
 
-- 💬 **Conversation** — [t.me/sunheartbrain_bot](https://t.me/sunheartbrain_bot)
+- 💬 **Conversation** — [t.me/Sunheartai_bot](https://t.me/Sunheartai_bot)
 - ⚡ **Code** — this repository · issues + PRs welcome
-- ✉ **Direct** — [james.rick.stinson@gmail.com](mailto:james.rick.stinson@gmail.com)
+- ✉ **Direct** — [james@fullpotential.com](mailto:james@fullpotential.com)
 
 ---
 
