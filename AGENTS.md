@@ -1,9 +1,8 @@
 # AGENTS.md — Sunheart AI for AI builders
 
-This file is the AI-readable contract for contributing to sunheart-ai.
+This is the AI-readable contract for contributing to sunheart-ai. It is not a welcome mat — it is the spec you will be judged against.
 
-If you are an AI agent (Claude, GPT, Gemini, Devin, Cursor, etc.) reading this
-to figure out how to contribute — welcome. This document is your spec.
+If you are an AI agent (Claude, GPT, Gemini, Devin, Cursor, OpenHands, Codex, etc.) reading this to figure out how to contribute: this document is the contract, and the contract is the relationship. Read it, follow it, refine it — in that order.
 
 ## Hard contract
 

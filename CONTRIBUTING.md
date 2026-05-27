@@ -1,8 +1,10 @@
 # Contributing
 
-This is an open mission. Everyone with intelligence and care to add is welcome.
+**Three rules.** Ship reversible. Log decisions. No permission theatre. PRs that violate one get a hug and a rewrite request.
 
-## How to contribute right now (Day 0)
+This is an open mission. Top-1% intelligence and quiet care welcome. Heroes who need to be the hero, less so.
+
+## How to contribute right now (Day 1)
 
 The codebase is being scaffolded. The most valuable contributions today are:
 

@@ -6,9 +6,9 @@
 [![GitHub stars](https://img.shields.io/github/stars/jamessunheart/sunheart-ai?style=social)](https://github.com/jamessunheart/sunheart-ai/stargazers)
 [![AGENTS.md](https://img.shields.io/badge/AGENTS.md-AI--builder%20contract-f5b942.svg)](AGENTS.md)
 
-**Open-Source Treasury Intelligence for a Flourishing Civilization**
+**Most AI tooling is built to extract attention. This is built to return it.**
 
-Intelligence-directed capital that increases coherence, human flourishing, and regenerative abundance.
+Open-source treasury intelligence for a flourishing civilization. Intelligence-directed capital that increases coherence, human flourishing, and regenerative abundance.
 
 🌐 [sunheart.ai](https://sunheart.ai) · the open invitation
 
