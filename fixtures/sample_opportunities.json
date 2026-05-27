@@ -1,0 +1,62 @@
+[
+  {
+    "id": "gauntlet-usdc-prime",
+    "name": "Gauntlet USDC Prime (Aave V3 wrapper)",
+    "expected_return": 0.06,
+    "confidence": 0.9,
+    "alignment": 0.7,
+    "liquidity": 0.95,
+    "risk": 0.15,
+    "complexity": 0.2,
+    "sustainability": 1.0,
+    "coherence_multiplier": 1.0
+  },
+  {
+    "id": "pendle-pt-susde",
+    "name": "Pendle PT sUSDe (locked yield)",
+    "expected_return": 0.12,
+    "confidence": 0.75,
+    "alignment": 0.6,
+    "liquidity": 0.3,
+    "risk": 0.35,
+    "complexity": 0.65,
+    "sustainability": 0.9,
+    "coherence_multiplier": 1.0
+  },
+  {
+    "id": "lido-steth",
+    "name": "Lido staked ETH",
+    "expected_return": 0.034,
+    "confidence": 0.95,
+    "alignment": 0.85,
+    "liquidity": 0.85,
+    "risk": 0.2,
+    "complexity": 0.15,
+    "sustainability": 1.2,
+    "coherence_multiplier": 1.1
+  },
+  {
+    "id": "regen-network-grant",
+    "name": "Regen Network ecosystem grant pool",
+    "expected_return": 0.02,
+    "confidence": 0.6,
+    "alignment": 1.0,
+    "liquidity": 0.4,
+    "risk": 0.3,
+    "complexity": 0.5,
+    "sustainability": 1.8,
+    "coherence_multiplier": 1.5
+  },
+  {
+    "id": "anchor-protocol-legacy",
+    "name": "Anchor-style fixed-yield (extractive · synthetic)",
+    "expected_return": 0.19,
+    "confidence": 0.4,
+    "alignment": 0.2,
+    "liquidity": 0.7,
+    "risk": 0.75,
+    "complexity": 0.6,
+    "sustainability": 0.3,
+    "coherence_multiplier": 0.5
+  }
+]

@@ -1,0 +1,47 @@
+# Sunheart AI
+
+> Open-source treasury intelligence for a flourishing civilization.
+> Intelligence-directed capital that increases coherence, human flourishing, and regenerative abundance.
+
+Site: https://sunheart.ai
+License: MIT
+Status: v0.1 · Phase 1 (Clarity Engine) · executable kernel landed 2026-05-27
+
+## What this is
+
+A pure-Python kernel encoding the eight mathematical layers from MATHEMATICS.md as testable functions. Treasury allocation as a coherence + sustainability + risk optimization problem, not a yield-maximization problem.
+
+## Key docs (read in order)
+
+- README.md — invitation + three doors
+- WHY.md — civilization stakes
+- MATHEMATICS.md — eight foundational layers (six implemented in kernel/)
+- ROADMAP.md — five-phase deployment
+- AGENTS.md — the AI-builder contract (READ THIS if you are an AI)
+- CONTRIBUTING.md — human-builder pathways
+
+## Code structure
+
+- kernel/ — pure-function math layer (equations.py + types.py)
+- tests/ — unittest-style tests (test_equations.py + test_recursive.py xfails)
+- fixtures/ — JSON sample data
+- examples/first_contribution.py — runnable demo
+- benchmarks/ — skeleton for historical-data validation
+
+## How to contribute (AI or human)
+
+1. Clone: `git clone https://github.com/jamessunheart/sunheart-ai.git`
+2. Run demo: `python examples/first_contribution.py`
+3. Run tests: `python -m unittest discover tests`
+4. Pick issue: github.com/jamessunheart/sunheart-ai/issues
+5. PR back
+
+## What's intentionally underspecified
+
+- Equation ⑥ (Recursive Intelligence) — see tests/test_recursive.py xfails
+- Layers ⑦ (Civilization-Scale Coordination) + ⑧ (Flourishing Efficiency) — conceptual, no single equation yet
+- Refining these IS the work — open invitations to all builders, human and AI
+
+## Pre-token by design
+
+No fundraising. No speculative token. MIT license. Contribution is recognition-based. See WHY.md + ROADMAP.md sequence: clarity → utility → contribution → treasury formation.

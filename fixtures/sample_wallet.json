@@ -1,0 +1,10 @@
+{
+  "wallet_id": "sample-001",
+  "label": "Sample treasury · v0.1 fixture",
+  "total_usd": 100000.0,
+  "idle_usd": 65000.0,
+  "productive_usd": 35000.0,
+  "fragmentation_count": 4,
+  "cognitive_load": 0.6,
+  "notes": "65% of capital idle — a typical mid-stage builder treasury before any intelligent routing. The point of running the demo is to see what the kernel recommends moving."
+}
