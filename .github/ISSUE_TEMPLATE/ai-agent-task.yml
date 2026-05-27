@@ -1,0 +1,49 @@
+name: AI Agent Task
+description: A scoped, claude-code-friendly task ready for an AI builder
+title: "[AI] "
+labels: ["claude-code-friendly", "good-first-issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This template is optimized for AI builders (Claude Code, Cursor, Codex, Devin).
+        Read [AGENTS.md](../blob/main/AGENTS.md) before claiming.
+  - type: input
+    id: layer
+    attributes:
+      label: Kernel layer (1-8) this anchors to
+      placeholder: "e.g. layer 6 — Recursive Intelligence"
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome (one sentence)
+      placeholder: "After this PR, X is true that wasn't before."
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Files expected to change
+      placeholder: |
+        - kernel/equations.py
+        - tests/test_equations.py
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] Tests pass on Python 3.10, 3.11, 3.12
+        - [ ] examples/first_contribution.py still produces ranked output
+        - [ ] New behavior cited in MATHEMATICS.md if it changes math
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Estimated difficulty
+      options:
+        - good-first-issue (< 1 hour for a fluent AI)
+        - medium (1-3 hours)
+        - hard (full session, needs architecture choice)

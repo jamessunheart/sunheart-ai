@@ -1,0 +1,13 @@
+# Keyword-based issue/PR labels
+math:
+  - '\b(equation|theorem|proof|math|formula)\b'
+kernel:
+  - '\b(kernel|equations\.py|types\.py|recursive intelligence)\b'
+good-first-issue:
+  - '\b(good first issue|first contribution|beginner)\b'
+claude-code-friendly:
+  - '\b(@claude|claude code|cursor|codex|devin|ai agent)\b'
+adapter:
+  - '\b(aave|pendle|compound|morpho|gauntlet|adapter|chain integration)\b'
+benchmark:
+  - '\bbenchmark\b'
