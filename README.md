@@ -1,7 +1,7 @@
 # Sunheart AI
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/tests-22%20passing-brightgreen.svg)](tests/)
+[![Tests](https://github.com/jamessunheart/sunheart-ai/actions/workflows/tests.yml/badge.svg)](https://github.com/jamessunheart/sunheart-ai/actions/workflows/tests.yml)
 [![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![GitHub stars](https://img.shields.io/github/stars/jamessunheart/sunheart-ai?style=social)](https://github.com/jamessunheart/sunheart-ai/stargazers)
 [![AGENTS.md](https://img.shields.io/badge/AGENTS.md-AI--builder%20contract-f5b942.svg)](AGENTS.md)
