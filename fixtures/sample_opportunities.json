@@ -1,7 +1,7 @@
 [
   {
-    "id": "gauntlet-usdc-prime",
-    "name": "Gauntlet USDC Prime (Aave V3 wrapper)",
+    "id": "fixture-stable-low-risk",
+    "name": "Sample · stable-asset low-risk wrapper",
     "expected_return": 0.06,
     "confidence": 0.9,
     "alignment": 0.7,
@@ -12,8 +12,8 @@
     "coherence_multiplier": 1.0
   },
   {
-    "id": "pendle-pt-susde",
-    "name": "Pendle PT sUSDe (locked yield)",
+    "id": "fixture-locked-yield",
+    "name": "Sample · locked-term yield instrument",
     "expected_return": 0.12,
     "confidence": 0.75,
     "alignment": 0.6,
@@ -24,8 +24,8 @@
     "coherence_multiplier": 1.0
   },
   {
-    "id": "lido-steth",
-    "name": "Lido staked ETH",
+    "id": "fixture-staked-eth",
+    "name": "Sample · liquid-staked ETH",
     "expected_return": 0.034,
     "confidence": 0.95,
     "alignment": 0.85,
@@ -36,8 +36,8 @@
     "coherence_multiplier": 1.1
   },
   {
-    "id": "regen-network-grant",
-    "name": "Regen Network ecosystem grant pool",
+    "id": "fixture-grant-pool",
+    "name": "Sample · regenerative grant ecosystem",
     "expected_return": 0.02,
     "confidence": 0.6,
     "alignment": 1.0,
@@ -48,8 +48,8 @@
     "coherence_multiplier": 1.5
   },
   {
-    "id": "anchor-protocol-legacy",
-    "name": "Anchor-style fixed-yield (extractive · synthetic)",
+    "id": "fixture-extractive-legacy",
+    "name": "Sample · extractive-yield archetype (illustrative)",
     "expected_return": 0.19,
     "confidence": 0.4,
     "alignment": 0.2,

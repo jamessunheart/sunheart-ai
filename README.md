@@ -86,8 +86,10 @@ The demo ranks five sample DeFi opportunities by the kernel's coherence-adjusted
 
 ---
 
-## License
+## License + safety
 
-[MIT](LICENSE) — use it, fork it, build on it.
+- [MIT](LICENSE) — use it, fork it, build on it.
+- [DISCLAIMER](DISCLAIMER.md) — research software · not investment advice · no token · no fundraising.
+- [SECURITY](SECURITY.md) — responsible-disclosure policy.
 
 > A [Full Potential](https://fullpotential.com/game) initiative · drafted in Costa Rica · 2026

@@ -98,12 +98,14 @@ def main():
     print("\n" + "=" * 60)
     top = scored[0][2]
     bottom = scored[-1][2]
-    print(f"\nThe kernel says: deploy idle capital into '{top.name}' first.")
+    print(f"\nIn this sample fixture, '{top.name}' ranks first by the kernel's score.")
     print(f"Its raw yield ({top.expected_return:.1%}) may not be the highest available")
     print(f"— but its allocation score is, because Risk, Alignment, and Liquidity matter.\n")
     print(f"Conversely: '{bottom.name}' shows a {bottom.expected_return:.1%} yield")
     print(f"but ranks last — high risk + low alignment + extractive sustainability.\n")
     print("This is the thesis: intelligence-directed capital ≠ chase highest APY.\n")
+    print("(This is a math demonstration on synthetic data. Not financial advice.")
+    print(" See DISCLAIMER.md.)\n")
     print("Next: open ISSUES.md, pick a [good-first-issue], submit a PR.")
     print("=" * 60)
 
