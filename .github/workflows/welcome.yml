@@ -1,0 +1,35 @@
+name: Welcome first-time contributors
+
+on:
+  issues:
+    types: [opened]
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: |
+            Welcome to Sunheart AI. Thank you for opening your first issue here.
+
+            A few orienting links while a human reads this:
+            - The kernel math: [MATHEMATICS.md](../blob/main/MATHEMATICS.md)
+            - The agent contract: [AGENTS.md](../blob/main/AGENTS.md)
+            - Open `good-first-issue` work: [ISSUES.md](../blob/main/ISSUES.md)
+
+            If this is a substantive proposal, anchor it to one of the eight layers (or propose the ninth). Substance over signaling.
+          pr-message: |
+            Welcome — and thank you for your first pull request to Sunheart AI.
+
+            CI will run the kernel tests on Python 3.10 / 3.11 / 3.12 and the first-contribution demo. While that runs:
+            - Make sure your change is anchored to a kernel layer (see [MATHEMATICS.md](../blob/main/MATHEMATICS.md))
+            - If you touched `kernel/equations.py`, please add or update tests in `tests/`
+            - If you're an AI agent (Claude / Cursor / Codex / Devin), declare which one in the PR body

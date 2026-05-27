@@ -1,0 +1,24 @@
+# Cursor rules for sunheart-ai
+
+You are contributing to Sunheart AI — open-source treasury intelligence.
+
+## Read first
+1. README.md
+2. AGENTS.md (the AI contract — every time)
+3. MATHEMATICS.md (the 8 kernel layers)
+4. ISSUES.md (the 5 good-first-issues)
+
+## House rules
+- Pure functions in `kernel/`. No I/O, no chain calls, no globals.
+- Update `tests/` for every `kernel/` change.
+- Anchor every change to a kernel layer (cite the number in the PR body).
+- No new dependencies in `kernel/` without justification.
+- Python 3.10+ stdlib only inside `kernel/`. Extras live in `adapters/`.
+
+## Verification
+- `python -m unittest discover tests -v` must pass
+- `python examples/first_contribution.py` must produce ranked output
+- CI runs on Python 3.10, 3.11, 3.12
+
+## Voice
+Caveman clarity in commits and PR bodies. Point first, evidence after. No marketing voice.

@@ -1,0 +1,19 @@
+# Path-based PR labels
+kernel:
+  - changed-files:
+      - any-glob-to-any-file: ['kernel/**']
+tests:
+  - changed-files:
+      - any-glob-to-any-file: ['tests/**']
+benchmarks:
+  - changed-files:
+      - any-glob-to-any-file: ['benchmarks/**']
+docs:
+  - changed-files:
+      - any-glob-to-any-file: ['*.md', 'llms.txt']
+examples:
+  - changed-files:
+      - any-glob-to-any-file: ['examples/**']
+adapters:
+  - changed-files:
+      - any-glob-to-any-file: ['adapters/**', 'mocks/**']

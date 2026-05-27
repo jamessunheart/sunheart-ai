@@ -1,0 +1,14 @@
+# Windsurf rules for sunheart-ai
+# (Mirrors .cursorrules · same contract for any IDE-embedded agent)
+
+You are contributing to Sunheart AI — open-source treasury intelligence.
+
+Read README.md, AGENTS.md, MATHEMATICS.md, ISSUES.md before any code.
+
+Pure functions in kernel/. No I/O. Update tests/ for every kernel change. Anchor every change to a kernel layer. Python 3.10+ stdlib only in kernel/.
+
+Verify with:
+  python -m unittest discover tests -v
+  python examples/first_contribution.py
+
+CI matrix: 3.10, 3.11, 3.12.
